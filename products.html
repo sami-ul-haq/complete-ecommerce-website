@@ -14,7 +14,6 @@
 <body>
 
     <!-- Header -->
-    <header>
         <div class="container">
 
             <!-- Logo -->
@@ -38,42 +37,23 @@
                 <img src="./assets/menu.png" alt="cart" class="menu-icon" onclick="menuToggle()">
             </div>
 
-            <div class="row">
-                <div class="col-2">
-                    <h1>Give Your Workout <br> A New Style!</h1>
-                    <p>Success isn't always about greatness. It's about Consistency. Consistent <br>Hard work gains
-                        success. Greatness will come.</p>
-                    <a href="#" class="btn">Explore Now &#8594;</a>
-                </div>
-                <div class="col-2">
-                    <img src="./assets/image1.png" alt="banner">
-                </div>
-            </div>
-
         </div>
-    </header>
 
-    <!-- Featured Categories -->
-    <div class="categories">
-        <div class="small-container">
-            <div class="row">
-                <div class="col-3">
-                    <img src="./assets/category-1.jpg" alt="cat">
-                </div>
-                <div class="col-3">
-                    <img src="./assets/category-2.jpg" alt="cat">
-                </div>
-                <div class="col-3">
-                    <img src="./assets/category-3.jpg" alt="cat">
-                </div>
-            </div>
-        </div>
-    </div>
 
-    <!-- Featured Products -->
+
     <div class="small-container">
 
-        <h2 class="title">Featured Products</h2>
+        <div class="row row-2">
+            <h2>All Products</h2>
+            <select>
+                <option>Default Sorting</option>
+                <option>Sort By Price</option>
+                <option>Sort By Popularity</option>
+                <option>Sort By Ratings</option>
+                <option>Sort By Sale</option>
+            </select>
+        </div>
+
         <div class="row">
             <div class="col-4">
                 <img src="./assets/product-1.jpg" alt="products">
@@ -106,7 +86,7 @@
                     <i class="fa fa-star"></i>
                     <i class="fa fa-star"></i>
                     <i class="fa fa-star"></i>
-                    <i class="fa fa-half-star"></i> 
+                    <i class="fa fa-star-half"></i> 
                     <i class="fa fa-star-o"></i> 
                 </div>
                 <p>$50.00</p>
@@ -125,7 +105,6 @@
             </div>
         </div>
 
-        <h2 class="title">Latest Products</h2>
         <div class="row">
             <div class="col-4">
                 <img src="./assets/product-5.jpg" alt="products">
@@ -228,94 +207,18 @@
             </div>
         </div>
 
+        <div class="page-btn">
+            <span>1</span>
+            <span>2</span>
+            <span>3</span>
+            <span>4</span>
+            <span>&#8594; </span>
+        </div>
+
     </div>
 
-    <!-- Offer Section -->
-    <div class="offer">
-        <div class="small-container">
-            <div class="row">
-                <div class="col-2">
-                    <img src="./assets/exclusive.png" class="offer-img" alt="">
-                </div>
-                <div class="col-2">
-                    <p>Exclusively Available on RedStore</p>
-                    <h1>Smart Bend 4</h1>
-                    <small>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam unde fugiat dolore commodi blanditiis beatae fuga aspernatur reprehenderit, odit atque asperiores nam culpa? Provident, dolores?</small> <br>
-                    <a href="#" class="btn">Buy Now &#8594;</a>
-                </div>
-            </div>
-        </div>
-    </div>
 
-    <!-- Testimonial Section -->
-    <div class="testimonial">
-        <div class="small-container">
-            <div class="row">
-                <div class="col-3">
-                    <i class="fa fa-quote-left"></i>
-                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic, molestiae alias. Ducimus veniam repellat, eaque enim sequi maiores hic dolores nihil tempore modi cupiditate dolore.</p> 
-                   <div class="ratings">
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i> 
-                        <i class="fa fa-half-star"></i> 
-                    </div>
-                    <img src="./assets/user-1.png" alt="">
-                    <h3>Sami ul Haq</h3>
-                </div>
-                <div class="col-3">
-                    <i class="fa fa-quote-left"></i>
-                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic, molestiae alias. Ducimus veniam repellat, eaque enim sequi maiores hic dolores nihil tempore modi cupiditate dolore.</p> 
-                   <div class="ratings">
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i> 
-                        <i class="fa fa-half-star"></i> 
-                    </div>
-                    <img src="./assets/user-2.png" alt="">
-                    <h3>Sami ul Haq</h3>
-                </div>
-                <div class="col-3">
-                    <i class="fa fa-quote-left"></i>
-                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic, molestiae alias. Ducimus veniam repellat, eaque enim sequi maiores hic dolores nihil tempore modi cupiditate dolore.</p> 
-                   <div class="ratings">
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i> 
-                        <i class="fa fa-half-star"></i> 
-                    </div>
-                    <img src="./assets/user-3.png" alt="">
-                    <h3>Sami ul Haq</h3>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- Brands -->
-    <div class="brands">
-        <div class="small-container">
-            <div class="row">
-                <div class="col-5">
-                    <img src="./assets/logo-white.png" alt="brands">
-                </div>
-                <div class="col-5">
-                    <img src="./assets/logo-oppo.png" alt="brands">
-                </div>
-                <div class="col-5">
-                    <img src="./assets/logo-paypal.png" alt="brands">
-                </div>
-                <div class="col-5">
-                    <img src="./assets/logo-philips.png" alt="brands">
-                </div>
-                <div class="col-5">
-                    <img src="./assets/logo-godrej.png" alt="brands">
-                </div>
-            </div>
-        </div>
-    </div>
+    
 
     <!-- footer -->
     <footer>
